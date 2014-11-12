@@ -1,0 +1,98 @@
+body {
+	color:rgb(84, 84, 84);
+}
+
+fieldset {
+	border: 1px dotted grey;
+	border-radius:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+legend {
+	font-weight:bold;	
+}
+
+.etiquetaCampoEncabezado {
+	font-weight:bold;
+	text-align:left;
+}
+
+.valorCampoEncabezado {
+	width:250px;
+	text-align:left;
+}
+
+input {
+	width:80px;
+}
+
+input[readonly]{
+	background-color:white;
+	border:0;
+	color:rgb(84, 84, 84);
+}
+
+input[disabled]{
+	background-color:white;
+	border:0;
+	color:rgb(84, 84, 84);
+}
+
+.monto {
+	font-size:14px;
+}
+
+.liquidacionEncabezado input , .liquidacionEncabezado select{
+	width:200px;
+}
+
+form[name="liquidacion"] {
+	width:600px;
+	margin-left: auto;
+	margin-right:auto;
+	border:3px solid lightgrey;
+	padding:5px;
+	border-radius:25px;
+	box-shadow:10px 10px 10px #888;
+	text-align:center;
+}
+
+.liquidacionDetalle {
+	width: 100%;
+	padding: 0px;
+	border-spacing: 0px;
+	text-align:left;
+}
+
+.liquidacionDetalle td {
+	border-bottom: 1px dotted grey;
+	height:30px;
+}
+
+.liquidacionDetalle td.itemFinal {
+	border-bottom: none;
+	height:30px;
+	font-weight:bold;
+}
+
+.liquidacionDetalle td.sueldoLiquido {
+	border-bottom: none;
+	text-align:center;
+	font-weight:bold;
+}
+
+.haber {
+	border-left:  1px dotted grey;
+	border-right: 1px dotted grey;
+	padding-left: 5px;
+}
+
+.descuento {
+	padding-left:5px;
+}
+
+.campoEntrada {
+	border : 2px outset grey;
+	background-color: #FFFFDD;
+}
